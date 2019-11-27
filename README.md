@@ -2,8 +2,6 @@
 
 The website for the Yaks project. Lives at [https://yaks.is](https://yaks.is).
 
-[![Build Status](https://travis-ci.org/zenoh-rs/website.svg?branch=master)](https://travis-ci.org/zenoh-rs/website)
-
 ## Getting Started
 
 Building the website depends on [Hugo](http://gohugo.io). So, first make sure
