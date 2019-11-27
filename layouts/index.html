@@ -1,0 +1,79 @@
+{{ partial "header" . }}
+
+<main class="ato-masthead">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-5 mx-auto col-md-5 order-md-2">
+        <img class="img-fluid mb-3 mb-md-0 ato-logo" src="/img/yaks-logo.svg" alt="">
+      </div>
+      <div class="col-md-7 order-md-1 text-center text-md-left pr-md-5">
+        <h1 class="mb-3 ato-text-big  ato-text-logo">Yaks</h1>
+        <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" class="lead">
+          <b>A geo-distributed storage.</b>
+        </p>        
+        <p class="lead mb-4">
+          Yaks provides a <b>distributed service</b> that implements an <b>eventually consistent</b>, <b>scalable</b>,
+          <b>location transparent</b>, <b>high performance</b>, and <b>distributed key/value store</b> with pluggable back-ends. 
+        </p>
+        <div class="d-flex flex-column flex-md-row lead mb-3">
+          <a href="{{ ref . "/docs/overview.md" }}" class="btn btn-lg btn-ato-primary mb-3 mb-md-0 mr-md-3">Get started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<div class="masthead-followup row m-0 border border-white">
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <h3>
+      <i class="fa fa-superpowers" aria-hidden="true"></i>
+      FOO COL 1
+    </h3>
+    <p>
+      FOO COL 1 DESCR
+    </p>
+
+    <hr class="half-rule">
+    <a class="btn btn-outline-primary" href="/docs/overview/#FOO1">Learn more</a>
+  </div>
+
+  <!--  style="text-decoration: line-through" -->
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <h3>
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      FOO COL 2
+    </h3>
+    <p>
+      FOO COL 2 DESCR
+    </p>
+    <hr class="half-rule">
+    <a class="btn btn-outline-primary" href="/docs/overview/#FOO2">Learn more</a>
+  </div>
+
+  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+    <h3>
+      <!-- fa-cogs -->
+      <i class="fa fa-dashboard" aria-hidden="true"></i>
+      FOO COL 3
+    </h3>
+    <p>
+      FOO COL 3 DESCR
+    </p>
+    <hr class="half-rule">
+    <a class="btn btn-outline-primary" href="/docs/overview/#FOO3">Learn more</a>
+  </div>
+</div>
+
+<footer class="ato-footer text-muted">
+  <div class="container-fluid p-3 p-md-5">
+    <ul class="ato-footer-links">
+      <li><a href="https://github.com/atolab/yaks">GitHub</a></li>
+      <li><a href="https://twitter.com/atolab_">Twitter</a></li>
+      <li><a href="https://github.com/atolab/yaks-python/tree/master/examples">Examples</a></li>
+      <li><a href="/docs/overview/">About</a></li>
+    </ul>    
+  </div>
+</footer>
+
+{{ partial "footer" . }}

@@ -1,0 +1,36 @@
+---
+baseurl: "https://yaks.is"
+title: "Yaks - The FOO-1."
+languageCode: "en-us"
+canonifyURLs: "true"
+pygmentsCodefences: true
+pygmentsStyle: "manni"
+
+menu:
+  docs:
+    - identifier: "getting_started"
+      name: "Getting started"
+      weight: 1000
+    - identifier: "manual"
+      name: "Reference manual"
+      weight: 2000  
+    # - identifier: "APIs"
+    #   name: "API documentationXX"
+    #   # url: "https://readthedocs.org/search/?q=yaks"
+    #   weight: 3000
+
+  
+
+# NOTES:
+#
+##  Colors as in SVG:
+##    Zenoh blue:        #336699
+##    Yaks font blue:    #004f8f
+##    Yaks light blue 1: #adc5e7
+##    Yaks light blue 2: #7da7d8
+##    Yaks dark blue:    #003d73
+
+##  Colors as in Chrome:
+##    Yaks font blue:    #3e73a6
+
+
